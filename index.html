@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="stylesheet" href="styles2.css"> -->
     <link rel="stylesheet" href="https://unruffled-villani-4ea114.netlify.app/styles.css">
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -24,21 +24,23 @@
       <nav>
         <ul>
           <li><button class="icon-button">
-            <span class="material-icons">home</span>
+            <a href="index.html">
+            <span class="material-icons">home</span></a>
             <span class="icon-button_badge">2</span>
           </button></li>
           <li><button class="icon-button">
-            <span class="material-icons">shopping_bag</span>
+            <a href="cart.html">
+            <span class="material-icons">shopping_bag</span></a>
             <span class="icon-button_badge">2</span>
           </button></li>
           <li><button class="icon-button">
-            <span class="material-icons">favorite</span>
+            <a href="wishlist.html">
+            <span class="material-icons">favorite</span></a>
             <span class="icon-button_badge">2</span>
           </button></li>
-          <li><a href="wishlist.html">Wishlist</a></li>
-          <li><a href="cart.html">Cart</a></li>
-          <li><a href="login.html">LogIn</a></li>
-          <li><a href="signup.html">SignUp</a></li>
+          
+          <li><a href="login.html">Log In</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
         </ul>
       </nav></div>
 </header>
@@ -47,15 +49,36 @@
 <div class="home-content"><!--second div start-->
   
   
-  <div class="slider-img"><marquee width="100%" height="95%"><img src="https://picsum.photos/200/300"><img src="https://picsum.photos/200/300"><img src="https://picsum.photos/200/300"><img src="https://picsum.photos/200/300"><img src="https://picsum.photos/200/300"><img src="https://picsum.photos/200/300"><img src="https://picsum.photos/200/300"><img src="https://picsum.photos/200/300"><img src="https://picsum.photos/200/300"></marquee></div><!--slider-->
+  <div class="slider-img"><marquee width="100%" height="95%" behavior="alternate"><img src="/assets/slider1.png"><img src="/assets/slider2.png"><img src="/assets/slider3.png"><img src="/assets/slider4.png"></marquee></div><!--slider-->
   
   
   
   <div class="card-filter">
-    <div class="filter-home">Filtered By<br>
-      <input type="radio">Price</input><br>
-      <input type="radio">Ratings</input><br>
-      <input type="radio">Category</input><br>
+    <div class="filter-home">
+      <h3>Price</h3>
+     <div><input type="checkbox">Top Selling</div>
+     <div><input type="checkbox">Under 10k</div>
+     <div><input type="checkbox">Between 10k-20k</div>
+     <div><input type="checkbox">Above 20k</div>
+     <div><input type="checkbox">Flagship Product</div>
+
+      <h3>Ratings</h3>
+      <input type="range" min="1" max="5" value="3">
+      <h3>Category</h3>
+      <div><input type="checkbox">Android</div>
+     <div><input type="checkbox">ios</div>
+     <div><input type="checkbox">Stock Android</div>
+     <div><input type="checkbox">Rooted</div>
+     <h3>Screen Size</h3>
+      <div><input type="checkbox">Less than 3 inch</div>
+     <div><input type="checkbox">4-44 inch</div>
+     <div><input type="checkbox">3-34 inch</div>
+     <div><input type="checkbox">6 inch above</div>
+     <h3>RAM</h3>
+      <div><input type="checkbox">2GB</div>
+     <div><input type="checkbox">3GB</div>
+     <div><input type="checkbox">4GB</div>
+     <div><input type="checkbox">6GB</div>
     
     </div><!--filter-->
 
@@ -63,7 +86,7 @@
     <div class="card-home">
       <div class="card-mar card-basic card-over" >
         <div class="photu photo-overlay">
-          <img src="https://picsum.photos/200/300" opacity="0.1" height="200px" width="350px"/>
+          <img src="/assets/iphone.jpg" opacity="0.1" height="200px" width="350px"/>
         </div>
         <div class="header-col text-overlay">
           <div id="head"><b>Apple Iphone XR</b></div>
@@ -86,7 +109,7 @@
 
       <div class="card-mar card-basic card-over" >
         <div class="photu photo-overlay">
-          <img src="https://picsum.photos/200/300" height="200px" width="350px" />
+          <img src="/assets/realme.jpg" height="200px" width="350px" />
         </div>
         <div class="header-col text-overlay">
           <div id="head"><b>Realme X2</b></div>
@@ -109,7 +132,7 @@
 
       <div class="card-mar card-basic card-over" >
         <div class="photu photo-overlay">
-          <img src="https://picsum.photos/200/300" height="200px" width="350px" />
+          <img src="/assets/redmi.jpg" height="200px" width="350px" />
         </div>
         <div class="header-col text-overlay">
           <div id="head"><b>Redmi 9</b></div>
@@ -132,7 +155,7 @@
 
       <div class="card-mar card-basic card-over" >
         <div class="photu photo-overlay">
-          <img src="https://picsum.photos/200/300" height="200px" width="350px" />
+          <img src="/assets/nord.jpg" height="200px" width="350px" />
         </div>
         <div class="header-col text-overlay">
           <div id="head"><b>One Plus Nord CE</b></div>
@@ -152,6 +175,101 @@
           
           </div>
       </div>
+
+      <div class="card-mar card-basic card-over" >
+        <div class="photu photo-overlay">
+          <img src="/assets/nothing.jpg" height="200px" width="350px" />
+        </div>
+        <div class="header-col text-overlay">
+          <div id="head"><b>Nothing</b></div>
+          <div id="author">Special Offer | Last Stock</div>
+        </div>
+  
+        <div class="body-text">
+          <p>
+            Directly from the founder of One Plus, one of the most interesting devices of 2022.
+          </p>
+        </div>
+  
+        <div class="footer footer-basic">
+          <div><b>₹ 24,999</b></div>
+          <div><button id="read">Add To Cart</button></div>
+          <div><button id="bookmark">Buy Now</button></div>      
+          
+          </div>
+      </div>
+
+      <div class="card-mar card-basic card-over" >
+        <div class="photu photo-overlay">
+          <img src="/assets/redmi.jpg" height="200px" width="350px" />
+        </div>
+        <div class="header-col text-overlay">
+          <div id="head"><b>Redmi 11</b></div>
+          <div id="author">Special Offer</div>
+        </div>
+  
+        <div class="body-text">
+          <p>
+            The most affordable and reliable phone under 10k.
+          </p>
+        </div>
+  
+        <div class="footer footer-basic">
+          <div><b>₹ 8,999</b></div>
+          <div><button id="read">Add To Cart</button></div>
+          <div><button id="bookmark">Buy Now</button></div>      
+          
+          </div>
+      </div>
+
+
+      <div class="card-mar card-basic card-over" >
+        <div class="photu photo-overlay">
+          <img src="/assets/nord.jpg" height="200px" width="350px" />
+        </div>
+        <div class="header-col text-overlay">
+          <div id="head"><b>One Plus Nord CE</b></div>
+          <div id="author">Special Offer | Last Stock</div>
+        </div>
+  
+        <div class="body-text">
+          <p>
+            The best market has to offer, if you are more inclined towards stock android.
+          </p>
+        </div>
+  
+        <div class="footer footer-basic">
+          <div><b>₹ 25,499</b></div>
+          <div><button id="read">Add To Cart</button></div>
+          <div><button id="bookmark">Buy Now</button></div>      
+          
+          </div>
+      </div>
+
+      <div class="card-mar card-basic card-over" >
+        <div class="photu photo-overlay">
+          <img src="/assets/nokia.jpg" height="200px" width="350px" />
+        </div>
+        <div class="header-col text-overlay">
+          <div id="head"><b>Nokia</b></div>
+          <div id="author">Special Offer</div>
+        </div>
+  
+        <div class="body-text">
+          <p>
+            The best market has to offer, if you are more inclined towards stock android.
+          </p>
+        </div>
+  
+        <div class="footer footer-basic">
+          <div><b>₹ 15,999</b></div>
+          <div><button id="read">Add To Cart</button></div>
+          <div><button id="bookmark">Buy Now</button></div>      
+          
+          </div>
+      </div>
+
+      
 
  
 
